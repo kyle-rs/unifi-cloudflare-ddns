@@ -1,0 +1,29 @@
+{
+  "name": "unifi-cloudflare-ddns",
+  "version": "3.1.1",
+  "description": "Cloudflare DDNS (Dynamic DNS) support for UniFi OS",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "ddns",
+    "unifi",
+    "dns"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.53.0"
+  },
+  "dependencies": {
+    "cloudflare": "^4.1.0"
+  },
+  "overrides": {
+    "form-data": "^4.0.4"
+  }
+}
